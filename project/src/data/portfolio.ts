@@ -1,9 +1,9 @@
 export const personalInfo = {
-  name: "Alex Johnson",
+  name: "Sagar Joshi",
   title: "Full-Stack Developer & Engineering Student",
-  email: "alex.johnson@email.com",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
+  email: "joshisagar0596@email.com",
+  phone: "8218019943",
+  location: "Haldwani , Uttarakhand",
   github: "https://github.com/alexjohnson",
   linkedin: "https://linkedin.com/in/alexjohnson",
   portfolio: "https://alexjohnson.dev"
