@@ -4,9 +4,9 @@ export const personalInfo = {
   email: "joshisagar0596@email.com",
   phone: "8218019943",
   location: "Haldwani , Uttarakhand",
-  github: "https://github.com/alexjohnson",
-  linkedin: "https://linkedin.com/in/alexjohnson",
-  portfolio: "https://alexjohnson.dev"
+  github: "https://github.com/Sagar10joshi",
+  linkedin: "https://www.linkedin.com/in/sagar-joshi123",
+  portfolio: "https://portfolio-final-xp2j.vercel.app/"
 };
 
 export const skills = {
@@ -23,31 +23,32 @@ export const skills = {
     "VS Code", "Linux", "CI/CD","Postman"
   ],
   languages: [
-    "JavaScript", "TypeScript", "Python", "Java", "C++", "SQL" , "C"
+    "JavaScript", "TypeScript", "Python", "Java", "C++" , "C"
   ]
 };
 
 export const projects = [
   {
     id: 1,
-    title: "Quiz Website",
-    description: "Full-stack quiz website with real-time score management, mail system, and admin dashboard.",
-    longDescription: "Built a complete e-commerce platform using React, Node.js, and PostgreSQL. Features include user authentication, shopping cart, payment integration with Stripe, order tracking, and comprehensive admin panel for inventory management.",
-    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Redis", "Docker"],
-    liveUrl: "https://demo-ecommerce.com",
-    githubUrl: "https://github.com/alexjohnson/ecommerce-platform",
+    title: "College Canteen Website",
+    description: "A responsive and user-friendly college canteen website enabling students to browse the menu, place orders online, and track order status in real time.",
+    longDescription: "A modern canteen management app built with MongoDB, Express.js, React, and Node.js. Students can browse the menu, order food online, and get real-time updates. Admins can manage items and track orders efficiently, making the canteen experience faster and more organized.",
+    image: "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React", "Express.js", "MongoDB", "Socket.io", "NodeJS","Nodemailer"],
+    liveUrl: "https://gehu-canteen.vercel.app/",
+    githubUrl: "https://github.com/Sagar10joshi/gehuCanteen",
     featured: true
+    
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "Collaborative task management application with real-time updates, team collaboration, and project tracking.",
-    longDescription: "Developed a comprehensive task management solution using React, Express.js, and MongoDB. Includes real-time collaboration, drag-and-drop interfaces, project templates, and team analytics dashboard.",
-    image: "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["React", "Express.js", "MongoDB", "Socket.io", "Material-UI"],
-    liveUrl: "https://taskflow-demo.com",
-    githubUrl: "https://github.com/alexjohnson/taskflow",
+    title: "Quiz Website",
+    description: "Full-stack quiz website with real-time score management, mail system, and admin dashboard.",
+    longDescription: "A quiz web app built with the MERN stack that lets users take quizzes by category and difficulty, with real-time scoring and results. Features include user authentication, randomized questions, and an admin dashboard to manage quizzes.",
+    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React", "Node.js", "MongoDB", "Express.js", "Nodemailer", "Git and GitHub"],
+    liveUrl: "https://gehuquiz-2oyc.vercel.app/",
+    githubUrl: "https://github.com/Sagar10joshi/gehuquiz",
     featured: true
   },
   {

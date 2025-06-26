@@ -16,23 +16,24 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
               {personalInfo.name.split(' ').map(n => n[0]).join('')}
             </div>
           </div>
-          
+
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6">
             <span className="block">Hi, I'm</span>
             <span className="block bg-gradient-to-r from-blue-600 to-teal-600 dark:from-blue-400 dark:to-teal-400 bg-clip-text text-transparent">
-              {personalInfo.name.split(' ')[0]}
+              {/* {personalInfo.name.split(' ')[0]} */}
+              {personalInfo.name}
             </span>
           </h1>
-          
+
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
             {personalInfo.title}
           </p>
-          
+
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Passionate about building innovative web applications and solving complex problems through code. 
+            Passionate about building innovative web applications and solving complex problems through code.
             Currently pursuing Computer Engineering while gaining hands-on experience in full-stack development.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
             <button
               onClick={() => scrollToSection('projects')}
@@ -41,16 +42,27 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
               View My Work
               <ArrowRight className="ml-2" size={20} />
             </button>
-            
-            <button
-              onClick={() => scrollToSection('contact')}
+
+            {/* <button
+              // onClick={() => scrollToSection('contact')}
+
               className="inline-flex items-center px-8 py-4 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-semibold rounded-lg hover:border-blue-600 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200"
             >
               <Download className="mr-2" size={20} />
               Download Resume
-            </button>
+            </button> */}
+
+            <a
+              href="https://drive.google.com/file/d/1V1_Ly2MPY8Ta7aqYz-gZDwIUAcuOWBzb/view?usp=drive_link"  // Replace this with the actual path or URL
+              download
+              className="inline-flex items-center px-8 py-4 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-semibold rounded-lg hover:border-blue-600 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200"
+            >
+              <Download className="mr-2" size={20} />
+              Download Resume
+            </a>
+
           </div>
-          
+
           <div className="flex items-center justify-center space-x-8">
             <a
               href={personalInfo.github}

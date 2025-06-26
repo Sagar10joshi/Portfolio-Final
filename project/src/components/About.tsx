@@ -47,18 +47,14 @@ const About: React.FC = () => {
           <div>
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">My Story</h3>
             <div className="space-y-4 text-gray-600 dark:text-gray-400">
-              <p>
-                I started my journey in software development during my first year at UC Berkeley, where I discovered 
-                my passion for creating digital solutions that make a real impact. What began as curiosity about 
-                how websites work has evolved into a deep understanding of full-stack development.
-              </p>
+              
               <p>
                 Currently pursuing my Computer Engineering degree, I combine academic knowledge with practical 
-                experience gained through internships, freelance projects, and personal initiatives. I thrive on 
+                experience gained through many projects, and personal initiatives. I thrive on 
                 the challenge of turning complex problems into elegant, user-friendly solutions.
               </p>
               <p>
-                When I'm not coding, you can find me contributing to open-source projects, exploring new frameworks, 
+                When I'm not coding, you can find me writing poems, exploring new frameworks,listning some music  
                 or mentoring fellow students in programming fundamentals.
               </p>
             </div>
@@ -78,9 +74,9 @@ const About: React.FC = () => {
                   <p className="text-gray-600 dark:text-gray-400 mb-2">
                     {education[0].school} • {education[0].period}
                   </p>
-                  <p className="text-sm text-gray-500 dark:text-gray-500 mb-3">
+                  {/* <p className="text-sm text-gray-500 dark:text-gray-500 mb-3">
                     GPA: {education[0].gpa}
-                  </p>
+                  </p> */}
                   <div className="flex flex-wrap gap-2">
                     {education[0].relevant.map((course, index) => (
                       <span
