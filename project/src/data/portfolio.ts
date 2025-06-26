@@ -33,7 +33,7 @@ export const projects = [
     title: "College Canteen Website",
     description: "A responsive and user-friendly college canteen website enabling students to browse the menu, place orders online, and track order status in real time.",
     longDescription: "A modern canteen management app built with MongoDB, Express.js, React, and Node.js. Students can browse the menu, order food online, and get real-time updates. Admins can manage items and track orders efficiently, making the canteen experience faster and more organized.",
-    image: "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://images.pexels.com/photos/239975/pexels-photo-239975.jpeg",
     technologies: ["React", "Express.js", "MongoDB", "Socket.io", "NodeJS","Nodemailer"],
     liveUrl: "https://gehu-canteen.vercel.app/",
     githubUrl: "https://github.com/Sagar10joshi/gehuCanteen",
@@ -45,7 +45,7 @@ export const projects = [
     title: "Quiz Website",
     description: "Full-stack quiz website with real-time score management, mail system, and admin dashboard.",
     longDescription: "A quiz web app built with the MERN stack that lets users take quizzes by category and difficulty, with real-time scoring and results. Features include user authentication, randomized questions, and an admin dashboard to manage quizzes.",
-    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://www.freepik.com/free-vector/questions-answer-multiple-choice-template-trivia-game_149279797.htm#fromView=keyword&page=1&position=27&uuid=41f7e1af-3321-438f-9380-7599c3f14d12&query=Quiz",
     technologies: ["React", "Node.js", "MongoDB", "Express.js", "Nodemailer", "Git and GitHub"],
     liveUrl: "https://gehuquiz-2oyc.vercel.app/",
     githubUrl: "https://github.com/Sagar10joshi/gehuquiz",
@@ -53,25 +53,25 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Weather Analytics Dashboard",
-    description: "Real-time weather data visualization with predictive analytics and interactive charts.",
-    longDescription: "Created a weather analytics dashboard using Python, FastAPI, and React. Features include real-time weather data integration, predictive modeling, interactive charts, and location-based forecasting.",
-    image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["Python", "FastAPI", "React", "D3.js", "PostgreSQL", "Docker"],
-    liveUrl: "https://weather-analytics.com",
-    githubUrl: "https://github.com/alexjohnson/weather-dashboard",
+    title: "Food Ordering Website Frontend",
+    description: "The frontend of a food ordering website is the user interface that allows customers to browse restaurants or food items, customize their orders, and place them online.",
+    longDescription: " Designed for usability and responsiveness, it ensures a seamless experience across devices, integrating real-time updates, smooth navigation, and visually appealing layouts to enhance user engagement and satisfaction.",
+    image: "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["HTML5", "CSS", "React", "JavaScript", "GitHub"],
+    // liveUrl: "https://weather-analytics.com",
+    // githubUrl: "https://github.com/alexjohnson/weather-dashboard",
     featured: false
   },
-  {
-    id: 4,
-    title: "Social Media API",
-    description: "RESTful API for social media platform with authentication, posts, comments, and real-time notifications.",
-    longDescription: "Built a scalable social media API using Node.js, Express, and MongoDB. Includes JWT authentication, file uploads, real-time notifications, and comprehensive API documentation.",
-    image: "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "Socket.io", "Swagger"],
-    githubUrl: "https://github.com/alexjohnson/social-api",
-    featured: false
-  }
+  // {
+  //   id: 4,
+  //   title: "Social Media API",
+  //   description: "RESTful API for social media platform with authentication, posts, comments, and real-time notifications.",
+  //   longDescription: "Built a scalable social media API using Node.js, Express, and MongoDB. Includes JWT authentication, file uploads, real-time notifications, and comprehensive API documentation.",
+  //   image: "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
+  //   technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "Socket.io", "Swagger"],
+  //   // githubUrl: "https://github.com/alexjohnson/social-api",
+  //   featured: false
+  // }
 ];
 
 // export const experience = [
