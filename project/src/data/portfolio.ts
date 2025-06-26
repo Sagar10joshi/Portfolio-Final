@@ -53,6 +53,18 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Personal Portfolio",
+    description: "This portfolio is built using React, showcasing my skills in Website development, component-based architecture, and responsive design.",
+    longDescription: " It features projects, technical skills, and contact information, with a focus on clean UI, performance, and interactive user experience.",
+    image: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: [ "React", "TypeScript", "CSS","GitHub","Git"],
+    liveUrl: "https://portfolio-final-xp2j.vercel.app/",
+    githubUrl: "https://github.com/Sagar10joshi/Portfolio-Final",
+    featured: false
+    
+  },
+  {
+    id: 4,
     title: "Food Ordering Website Frontend",
     description: "The frontend of a food ordering website is the user interface that allows customers to browse restaurants or food items, customize their orders, and place them online.",
     longDescription: " Designed for usability and responsiveness, it ensures a seamless experience across devices, integrating real-time updates, smooth navigation, and visually appealing layouts to enhance user engagement and satisfaction.",
@@ -61,17 +73,7 @@ export const projects = [
     // liveUrl: "https://weather-analytics.com",
     // githubUrl: "https://github.com/alexjohnson/weather-dashboard",
     featured: false
-  },
-  // {
-  //   id: 4,
-  //   title: "Social Media API",
-  //   description: "RESTful API for social media platform with authentication, posts, comments, and real-time notifications.",
-  //   longDescription: "Built a scalable social media API using Node.js, Express, and MongoDB. Includes JWT authentication, file uploads, real-time notifications, and comprehensive API documentation.",
-  //   image: "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
-  //   technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "Socket.io", "Swagger"],
-  //   // githubUrl: "https://github.com/alexjohnson/social-api",
-  //   featured: false
-  // }
+  }
 ];
 
 // export const experience = [
