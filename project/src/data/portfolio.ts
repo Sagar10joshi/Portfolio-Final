@@ -73,6 +73,17 @@ export const projects = [
     // liveUrl: "https://weather-analytics.com",
     // githubUrl: "https://github.com/alexjohnson/weather-dashboard",
     featured: false
+  },
+  {
+    id: 5,
+    title: "Rathour Automobile Website",
+    description: "Rathour Automobile is a dynamic and responsive website built with React, designed to showcase automotive products and services.",
+    longDescription: "It is a modern, responsive web application developed using React.js, aimed at delivering a seamless digital experience for automobile customers. The platform showcases a wide range of vehicles offered by Rathour Automobiles, complete with detailed specifications and pricing.",
+    image: "https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["HTML5", "CSS", "React", "TypeScript", "GitHub" , "Git"],
+    liveUrl: "https://rathour-automobile.vercel.app/",
+    githubUrl: "https://github.com/Sagar10joshi/Rathour_Automobile",
+    featured: true
   }
 ];
 
